@@ -16,3 +16,6 @@ docker build -f Dockerfile -t "$BYOC" .
 
 # Push your image to ECR
 docker push "$BYOC"
+
+echo "Your image is ready to use:"
+echo "$BYOC"
